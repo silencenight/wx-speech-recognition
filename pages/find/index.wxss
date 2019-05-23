@@ -1,0 +1,124 @@
+/* pages/find/index.wxss */
+
+page {
+  background-color: #edece8;
+}
+
+.page_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-left: 36rpx;
+  margin-top: 26rpx;
+  margin-bottom: 26rpx;
+  align-items: center;
+}
+
+.searchcion {
+  padding: 10rpx;
+}
+
+.text {
+  font-size: 26rpx;
+}
+
+.huatong {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 10rpx;
+}
+
+.search_arr {
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+  width: 100%;
+  background-color: #fff;
+}
+
+.search_arr input {
+  margin-left: 60rpx;
+  height: 60rpx;
+  border-radius: 5px;
+}
+
+.bc_text {
+  line-height: 68rpx;
+  height: 68rpx;
+  margin-top: 34rpx;
+}
+
+.searchcion {
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  position: absolute;
+  left: 25rpx;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+/* -------------------中间的文字-------------------------- */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40rpx;
+  margin-left: 36rpx;
+  margin-right: 36rpx;
+  height: 500rpx;
+  background-color: #fff;
+  text-align: center;
+  justify-content: center;
+}
+
+.content_title {
+  margin-bottom: 50rpx;
+  font-weight: 600;
+}
+
+.item {
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+  font-weight: 300;
+}
+
+.box {
+  height: 380rpx;
+}
+
+.speech_title {
+  margin-top: 60rpx;
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+  font-weight: 300;
+  text-align: center;
+}
+
+.speech {
+  margin-top: 40rpx;
+  margin-left: 100rpx;
+  align-content: center;
+}
+
+.bottom {
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.lvsehuatong {
+  margin-left: 150rpx;
+  width: 120rpx;
+  height: 120rpx;
+}
+
+
+.btTouch {
+  margin-left: 140rpx;
+  width: 150rpx;
+  height: 150rpx;
+}

@@ -1,0 +1,22 @@
+/* pages/speech/index.wxss */
+.page{
+  background-color: #F8F8F8;
+  height: 100%;
+  font-size: 32rpx;
+}
+.btn{
+  margin: 10rpx;
+}
+
+.recognition{
+  margin: 50rpx 10rpx;
+}
+
+.lb{
+  font-weight: bold;
+}
+.speech{
+  margin-top: 20rpx;
+  color: red;
+}
+

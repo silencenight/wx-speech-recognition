@@ -1,0 +1,48 @@
+/* pages/speechtest/index.wxss */
+
+.body {
+  position: absolute;
+  padding-bottom: 100rpx;
+}
+
+.bt {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 69;
+  height: 100rpx;
+}
+
+.btTouch {
+  background: #e2e2e2 !important;
+  color: #333 !important;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 69;
+  height: 100rpx;
+}
+
+.myLuYin {
+  height: 80rpx;
+  background: greenyellow;
+  border-radius: 6rpx;
+  margin: 15rpx 0;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 32rpx;
+  color: #fff;
+}
+
+.center {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.lvsehuatong{
+  margin-left: 150rpx;
+  width: 120rpx;
+  height: 120rpx;
+}

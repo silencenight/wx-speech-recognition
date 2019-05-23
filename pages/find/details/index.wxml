@@ -1,0 +1,111 @@
+<!--pages/find/details/index.wxml-->
+<view class="search_arr">
+  <icon class="searchcion" size='10' type='search'></icon>
+  <input class="text" placeholder="搜索" value="{{searchValue}}" />
+</view>
+
+<view class='home-alert-details' wx:for="{{alarmList}}" wx:for-index="key">
+  <view class="home-item">
+    <image class='icon' src='../icon/redgaojing.png'></image>
+    <view class='details'>
+      <text class='name'>设备信息：{{item.alarmSource}}</text>
+      <text class='address'>告警名称：{{item.alarmKey}}</text>
+      <text class='address'>告警级别：{{item.level}}</text>
+      <text class='address'>归属信息：{{item.province}} {{item.city}} {{item.specialty}} </text>
+      <text class='date'>时间信息：{{item.endTime}}</text>
+    </view>
+
+  </view>
+  <view class='horizon'></view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- 
+
+
+  <view class="details_container">
+    <view class="find_title">
+      <view class='name' style=" display: flex;  flex-direction: row;">
+        <image class='erroricon' src='../icon/error.png'></image>
+        <text class="alarm_name">射频单元驻波...</text>
+      </view>
+
+      <view class='btns'>
+        <button class='btn'>转单</button>
+        <button class='btn'>清除</button>
+      </view>
+    </view>
+    <view class="horizon"></view>
+    <text class="code">告警设备： 郑州环城高速ENODEB755......</text>
+    <text class="code">告警时间： 2016-04-14 10:47:20</text>
+    <text class="code">告警所属： 无线， 华为LTE</text>
+    <text class="area">告警城市： 河南省， 郑州市</text>
+  </view>
+  <view class="horizon-thick"></view>
+
+  <view class="details_container">
+    <view class="find_title">
+      <view class='name' style=" display: flex;  flex-direction: row;">
+        <image class='erroricon' src='../icon/right.png'></image>
+        <text class="alarm_name">射频单元驻波...</text>
+      </view>
+      <view class='btns'>
+        <button class='btn'>清除</button>
+      </view>
+    </view>
+    <view class="horizon"></view>
+    <text class="code">告警设备： 郑州环城高速ENODEB775-CQXJ</text>
+    <text class="code">告警时间： 2016-04-14 10:47:20</text>
+    <text class="code">告警所属： 无线， 华为LTE</text>
+    <view class='celve'>
+      <text class="area">告警城市： 河南省， 郑州市</text>
+      <button class='celvebtn'>策略执行</button>
+    </view>
+
+  </view>
+  <view class="horizon-thick"></view>
+
+  <view class="details_container">
+    <view class="find_title">
+      <view class='name' style=" display: flex;  flex-direction: row;">
+        <image class='erroricon' src='../icon/error.png'></image>
+        <text class="alarm_name">射频单元驻波...</text>
+      </view>
+
+      <view class='btns'>
+        <button class='btn'>转单</button>
+        <button class='btn'>清除</button>
+      </view>
+    </view>
+    <view class="horizon"></view>
+    <text class="code">告警设备： 郑州环城高速ENODEB755......</text>
+    <text class="code">告警时间： 2016-04-14 10:47:20</text>
+    <text class="code">告警所属： 无线， 华为LTE</text>
+    <text class="area">告警城市： 河南省， 郑州市</text>
+  </view> -->
+
+
+
+</view>

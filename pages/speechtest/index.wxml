@@ -1,0 +1,12 @@
+<!-- <view class='body'>
+  <view class='center'>
+    <block wx:for="{{list}}">
+      <view style='width:{{item.width+200}}rpx' bindtap="audioPlay" data-src="{{item.src}}" class='myLuYin'>录音{{index+1}}</view>
+    </block>
+  </view>
+</view> -->
+
+
+<button class="{{luStatu?'btTouch':'bt'}}" bind:touchstart="touchStart" bind:touchend="touchEnd" type='primary'>
+  <text wx:if="{{luStatu}}">松开结束</text>
+  <text wx:else>按住说话 </text> </button>

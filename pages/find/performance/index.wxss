@@ -1,0 +1,90 @@
+/* pages/find/performance/index.wxss */
+.search_arr {
+  display: flex;
+  flex-direction: row;
+  margin-left: 36rpx;
+  margin-right: 36rpx;
+  margin-bottom: 26rpx;
+  margin-top: 26rpx;
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+  width: 90%;
+  height: 66rpx;
+  background-color: #fff;
+    align-items: center;
+}
+.searchcion {
+  padding: 10rpx;
+}
+.text {
+  font-size: 26rpx;
+}
+/* =======================子条目========================== */
+.home-item {
+  display: flex;
+  flex-direction: row;
+  padding-top: 29rpx;
+  padding-bottom: 29rpx;
+  align-items: center;
+  background-color: #fff;
+  justify-content: space-between;
+}
+.icon {
+  width: 100rpx;
+  height: 120rpx;
+  margin-left: 27rpx;
+ 
+ 
+  padding-left: 27rpx;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 23rpx;
+  margin-right: 27rpx;
+
+}
+
+.name {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: normal !important;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  width: 511rpx;
+  font-size: 28rpx;
+  font-style: MicrosoftYaHei;
+  color: rgb(22, 22, 22);
+  margin-bottom: 10rpx;
+}
+
+.address {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  white-space: normal !important;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  width: 511rpx;
+  font-size: 24rpx;
+  font-style: MicrosoftYaHei;
+  color: rgb(174, 174, 174);
+ 
+  
+}
+.date {
+  font-size: 24rpx;
+  font-style: MicrosoftYaHei;
+  color: rgb(174, 174, 174);
+  margin-top: 10rpx;
+  
+}
+.horizon {
+  height: 1rpx;
+  background-color: rgb(231, 231, 231);
+  margin-left: 27rpx;
+  margin-right: 27rpx;
+}

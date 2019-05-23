@@ -1,0 +1,23 @@
+<!--pages/find/details/index.wxml-->
+<view class="search_arr">
+  <icon class="searchcion" size='10' type='search'></icon>
+  <input class="text" placeholder="搜索" value="{{searchValue}}" />
+</view>
+
+<view class='home-alert-details' wx:for="{{performanceList}}" wx:for-index="key">
+
+  <view class="home-item">
+    <image class='icon' src='../icon/alarm.png'></image>
+    <view class='details'>
+      <text class='name'>设备信息：{{item.deviceName}}</text>
+
+      <text class='address'>指标名称：{{item.period}} {{item.performanceEvents}}</text>
+      <text class='address'>指标信息：{{item.valueMax}} {{item.valueCurrent}} {{item.valueMin}}</text>
+
+      <text class='date'>时间信息：{{item.startTime}}</text>
+    </view>
+  </view>
+  <view class='horizon'></view>
+
+
+</view>

@@ -1,0 +1,23 @@
+{
+  "pages":[
+      "pages/find/index",
+    "pages/find/details/index",
+ 
+
+  
+     
+      "pages/find/performance/index",
+     
+    "pages/speech/index",
+    "pages/record/index",
+    "pages/speechtest/index",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

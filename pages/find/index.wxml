@@ -16,19 +16,6 @@
         <text wx:else>按住说话</text>
       </view>
 
-      <!-- <view class="{{luStatu?'btTouch':'btn'}}" bind:touchstart="touchStart" bind:touchend="touchEnd" style='background-image:url(icon/lvsehuatong.png);}'>
-        </view>
-
-        
-        <!-- <button class="{{luStatu?'btTouch':'btn'}}"  bind:touchstart="touchStart"bind:touchend="touchEnd" style='background-image:url(icon/lvsehuatong.png);}'></button> -->
-      <!-- <image class='bottom' src="icon/bottom.png" bindtap="bottom"></image> -->
-
-
-      <!-- <view class='speech'>
-        <image class='bottom' src="icon/bottom.png" bindtap="bottom"></image>
-        <image class='lvsehuatong' src="icon/lvsehuatong.png"></image>
-      </view> -->
-
       <view class='speech'>
         <image class='bottom' src="icon/bottom.png" bindtap="actionSheetTap"></image>
         <image class="{{luStatu?'btTouch':'lvsehuatong'}}" bind:touchstart="touchStart" bind:touchend="touchEnd" src="icon/lvsehuatong.png"></image>
@@ -39,13 +26,9 @@
 
 <view class='content'>
   <text class='content_title'>你可以试着说</text>
-  <text class='item'>"我要查LOS告警"</text>
-  <text class='item'>"我要查AIS告警"</text>
-  <text class='item'>"我要查性能"</text>
+  <text class='item'>"LOS告警"</text>
+  <text class='item'>"温度告警"</text>
+   <text class='item'>"本地失效告警"</text>
+  <text class='item'>"单板性能"</text>
+  <text class='item'>"单板温度"</text>
 </view>
-
-<!-- 询问框 -->
-<!-- <view bindtap="modalinput">
-<modal hidden="{{hiddenmodal}}" title="关键信息是告警或性能，未识别到，要找告警还是性能呢？请选择。" confirm-text="我要找性能" cancel-text="我要找告警" bindcancel="cancel" bindconfirm="confirm">  
-</modal>  
-</view> -->

@@ -152,9 +152,25 @@ Component({
                 });
               } else {
                 //弹出框询问：你要找的是：告警 性能，用户选择后进行跳转。
-                console.log("弹出框询问：你要找的是：告警 性能，用户选择后进行跳转");
-                that.actionSheetTap();//关掉底部弹框
-                that.modalinput();
+                // console.log("弹出框询问：你要找的是：告警 性能，用户选择后进行跳转");
+                // that.actionSheetTap();//关掉底部弹框
+                // that.modalinput();
+                wx.showModal({
+                  content: "关键信息是告警或性能，未识别到，要找告警还是性能呢？",
+                  confirmText: "找告警",
+                  cancelText: "找性能",
+                  success:function(res){
+                    if(res.confirm){
+                      wx.navigateTo({
+                        url: 'details/index',
+                      });
+                    }else{
+                      wx.navigateTo({
+                        url: 'performance/index',
+                      });
+                    }
+                  }
+                })
                
              
 

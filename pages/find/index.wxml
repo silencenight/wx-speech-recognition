@@ -45,7 +45,7 @@
 </view>
 
 <!-- 询问框 -->
-<view bindtap="modalinput">
-<modal hidden="{{hiddenmodal}}" title="请选择您要查询的内容" confirm-text="性能" cancel-text="告警" bindcancel="cancel" bindconfirm="confirm">  
+<!-- <view bindtap="modalinput">
+<modal hidden="{{hiddenmodal}}" title="关键信息是告警或性能，未识别到，要找告警还是性能呢？请选择。" confirm-text="我要找性能" cancel-text="我要找告警" bindcancel="cancel" bindconfirm="confirm">  
 </modal>  
-</view>
+</view> -->
